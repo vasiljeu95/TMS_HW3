@@ -21,7 +21,13 @@ public class tms_hw3_task4 {
             sum2 += array2[i];
         }
 
-        System.out.println(sum1/10);
-        System.out.println(sum2/10);
+        int averageOne = sum1/10;
+        int averageTwo = sum2/10;
+
+        if (averageOne > averageTwo) {
+            System.out.println(averageOne);
+        } else {
+            System.out.println(averageTwo);
+        }
     }
 }
